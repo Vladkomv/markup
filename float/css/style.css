@@ -1,0 +1,252 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper-1-row, .wrapper-2-row, .wrapper-3-row, .wrapper-4-row, .wrapper-5-row {
+    height: 20%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background: red;
+}
+
+.clearfix: after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.block_1-1 {
+    height: 100%;
+    width: 33.33%;
+    background-color: #faecd8;
+    float: left;
+}
+
+.block_1-2 {
+    height: 100%;
+    width: 33.33%;
+    background-color: #f5f5dd;
+    float: left;
+}
+
+.block_1-3 {
+    height: 100%;
+    width: 33.33%;
+    background-color: #ffe4c5;
+    float: left;
+}
+
+.block_2-1 {
+    height: 100%;
+    width: 33.33%;
+    background-color: #fff8dd;
+    float: left;
+}
+
+.block_2-2 {
+    height: 100%;
+    width: 33.33%;
+    background-color: #fff8dd;
+    float: left;
+}
+
+.block_2-3 {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.block_2-3-1 {
+    height: 33.33%;
+    width: 100%;
+    background: #faecd8;
+}
+
+.block_2-3-2 {
+    height: 33.33%;
+    width: 100%;
+    background: #f5f5dd;    
+}
+
+.block_2-3-3 {
+    height: 33.33%;
+    width: 100%;
+    background: #ffe4c5;
+}
+
+.block_3-1 {
+    height: 100%;
+    width: 33.33%;
+    background: #ffe4c5;
+    float: left;
+}
+
+.block_3-2 {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.block_3-2-1 {
+    height: 50%;
+    width: 100%;
+    background: #e7e7fa;
+}
+
+.block_3-2-2 {
+    height: 50%;
+    width: 100%;
+    background: #f0fff0;
+}
+
+.block_3-3 {
+    height: 100%;
+    width: 33.33%;
+    background: #f5f5dd;
+    float: left;
+}
+
+.block_4-1 {
+    height: 100%;
+    width: 33.33%;
+    background: #fff8dd;
+    float: left;
+}
+
+.block_4-2 {
+    height: 100%;
+    width: 33.33%;
+    background: #fff8dd;
+    float: left;
+}
+
+.block_4-3 {
+    height: 100%;
+    width: 33.33%;
+    background: #e7e7fa;
+    float: left;
+}
+
+.block_5-1 {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.block_5-1-1 {
+    height: 33.33%;
+    width: 100%;
+    background: #faecd8;
+}
+
+.block_5-1-2 {
+    height: 33.33%;
+    width: 100%;
+    background: #f5f5dd;
+}
+
+.block_5-1-3 {
+    height: 33.33%;
+    width: 100%;
+    background: #ffe4c5;
+}
+
+.block_5-2 {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.block_5-2-1 {
+    height: 50%;
+    width: 100%;
+    background: #e7e7fa;
+}
+
+.block_5-2-2 {
+    height: 50%;
+    width: 100%;
+    background: #f0fff0;
+}
+
+.block_5-3 {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.block_5-3-1 {
+    height: 25%;
+    width: 100%;
+    background: #faecd8;
+}
+
+.block_5-3-2 {
+    height: 25%;
+    width: 100%;
+    background: #f5f5dd;
+}
+
+.block_5-3-3 {
+    height: 25%;
+    width: 100%;
+    background: #ffe4c5;
+}
+
+.block_5-3-4 {
+    height: 25%;
+    width: 100%;
+    background: #f5f5dd;
+}
+
