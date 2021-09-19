@@ -53,7 +53,8 @@ html, body {
 }
 
 .wrapper {
-    min-height: calc(100vh - 246px);
+    position: relative;
+    min-height: 100%;
 }
 
 body {
@@ -139,6 +140,8 @@ h1 {
 main {
     display: block;
     width: 1049px;
+    padding-bottom: 10px;
+    
 }
 
 #main-image {
@@ -238,9 +241,9 @@ strong {
     height: 480px;
     background-image: url(../images/04.jpg);
     border-radius: 30px;
-    margin-left: auto;
-    margin-right: auto;   
+    margin: auto;    
 }
+
 footer {
     display: block;
     width: 1024px;
@@ -250,17 +253,16 @@ footer {
     opacity: 0.9;
     border-radius: 30px;
     text-align: center;
-    margin-top: 10px;
-    position:relative;
+    position:absolute;
+    left: 0;
+    bottom: 0;    
 
 }
 
 .block_2 {
     display: block;
     font-size: 28px;
-    line-height: 1.5;
-    position:absolute; 
-    left:30%;
+    line-height: 1.5;    
 }
 
 .block_2 a {
